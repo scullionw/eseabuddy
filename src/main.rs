@@ -1,7 +1,7 @@
-use pypack::{
-    rust_embed::{self, RustEmbed},
-    RustEmbedExt,
-};
+#[macro_use]
+extern crate pypack;
+
+use pypack::{rust_embed, RustEmbed, RustEmbedExt};
 
 #[derive(RustEmbed)]
 #[folder = "dist/"]

@@ -5,5 +5,4 @@ authors = ["scullionw <williamscullion@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-pypack = { path = "../pypack" }
-# rust-embed = "5.1.0"
+pypack = { git = "https://github.com/scullionw/pypack.git" }
