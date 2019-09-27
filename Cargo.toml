@@ -5,4 +5,4 @@ authors = ["scullionw <williamscullion@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-binpack = { path = "../binpack/binpack" }
+binpack = { path = "../binpack/binpack", features = ["nowindow"]}

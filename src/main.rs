@@ -3,8 +3,9 @@
 use binpack::*;
 
 #[derive(Bundle)]
+#[folder = "dist/"]
 struct Python;
 
 fn main() {
-    Python::run_no_window();
+    Python::run();
 }
