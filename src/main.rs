@@ -1,12 +1,10 @@
-use pypack::{
-    rust_embed::{self, RustEmbed},
-    RustEmbedExt,
-};
+#![windows_subsystem = "windows"]
 
-#[derive(RustEmbed)]
-#[folder = "dist/"]
+use binpack::*;
+
+#[derive(Bundle)]
 struct Python;
 
 fn main() {
-    Python::dump_and_exec();
+    Python::run_no_window();
 }
