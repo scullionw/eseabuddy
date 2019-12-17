@@ -5,4 +5,4 @@ authors = ["scullionw <williamscullion@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-binpack = { path = "../binpack/binpack", features = ["nowindow"]}
+binpack = { git = "https://github.com/scullionw/binpack.git", features = ["nowindow"]}

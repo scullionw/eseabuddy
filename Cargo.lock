@@ -3,8 +3,9 @@
 [[package]]
 name = "binpack"
 version = "0.1.0"
+source = "git+https://github.com/scullionw/binpack.git#a17a9d306c9fa7e62d493021d4e3e3f4f458edf6"
 dependencies = [
- "binpack-macros 0.1.0",
+ "binpack-macros 0.1.0 (git+https://github.com/scullionw/binpack.git)",
  "rust-embed 5.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "tempfile 3.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -12,6 +13,7 @@ dependencies = [
 [[package]]
 name = "binpack-macros"
 version = "0.1.0"
+source = "git+https://github.com/scullionw/binpack.git#a17a9d306c9fa7e62d493021d4e3e3f4f458edf6"
 dependencies = [
  "quote 1.0.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "syn 1.0.5 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -35,7 +37,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "eseabuddy"
 version = "0.1.0"
 dependencies = [
- "binpack 0.1.0",
+ "binpack 0.1.0 (git+https://github.com/scullionw/binpack.git)",
 ]
 
 [[package]]
@@ -265,6 +267,8 @@ version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
+"checksum binpack 0.1.0 (git+https://github.com/scullionw/binpack.git)" = "<none>"
+"checksum binpack-macros 0.1.0 (git+https://github.com/scullionw/binpack.git)" = "<none>"
 "checksum c2-chacha 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "7d64d04786e0f528460fc884753cf8dddcc466be308f6026f8e355c41a0e4101"
 "checksum cfg-if 0.1.10 (registry+https://github.com/rust-lang/crates.io-index)" = "4785bdd1c96b2a846b2bd7cc02e86b6b3dbf14e7e53446c4f54c92a361040822"
 "checksum getrandom 0.1.12 (registry+https://github.com/rust-lang/crates.io-index)" = "473a1265acc8ff1e808cd0a1af8cee3c2ee5200916058a2ca113c29f2d903571"
